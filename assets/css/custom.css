@@ -1,0 +1,462 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Replace 'Your Favorite Font' */
+}
+
+/* ... your existing CSS rules ... */
+
+.service-item {
+    /* background: linear-gradient(to bottom right, #1a1a1a, #2c2c2c); */
+    /* background-image: url('../img/working-3.jpg'); */
+    /* Set your image here */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 30px 25px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+/* custom cards */
+
+.card-1 {
+    background-image: url('../img/Card-Backgrounds/archer-with-a-bow-clash-of-clans-5lnl2yy85gm5n6gd.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-2 {
+    background-image: url('../img/Card-Backgrounds/awesome-graphic-for-animal-jam-wi8b6sofc9wb18jk.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-3 {
+    background-image: url('../img/Card-Backgrounds/chou-ml-s-t-u-n-chou-frirvm9l9zmgn7hu.jpg');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-4 {
+    background-image: url('../img/Card-Backgrounds/clash-of-clans-pink-haired-archer-defd0y9ukbspqa01.jpg');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-5 {
+    background-image: url('../img/Card-Backgrounds/cool-fortnite-skin-dire-with-katana-sk590djux1dx2dcp.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-6 {
+    background-image: url('../img/Card-Backgrounds/wildcat-fortnite-nytexl0lkc363zud.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-6 {
+    background-image: url('../img/Card-Backgrounds/wildcat-fortnite-nytexl0lkc363zud.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-7 {
+    background-image: url('../img/Card-Backgrounds/awesome-graphic-for-animal-jam-wi8b6sofc9wb18jk.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-8 {
+    background-image: url('../img/Card-Backgrounds/chou-ml-s-t-u-n-chou-frirvm9l9zmgn7hu.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-9 {
+    background-image: url('../img/Card-Backgrounds/List-Group/sung-jinwoo-3840x2160-21523.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.service-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    /* Adjust the darkening intensity */
+    transition: all 0.25s ease-in-out;
+    border-radius: 12px;
+}
+
+.service-item:hover::after {
+    background: rgba(0, 0, 0, 0.75);
+    /* Darken the image more on hover */
+}
+
+.service-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 30px rgba(231, 122, 191, 0.4);
+}
+
+.service-item h3,
+.service-item p {
+    color: #8dac1f;
+    /* Example default color, change as needed */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Change the text color on hover */
+.service-item:hover h3,
+.service-item:hover p {
+    color: #fff;
+    /* Pure white color */
+    transition: color 0.3s ease-in-out;
+    /* Smooth transition */
+}
+
+/* Change the text color and size on hover */
+.service-item:hover h3 {
+    color: #fff;
+    /* Pure white color */
+    font-size: 1.75rem;
+    /* Example of size change, adjust as needed */
+    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+    /* Smooth transition for both color and size */
+}
+
+
+
+
+
+.service-item .icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #f3268c;
+    z-index: 2;
+    position: relative;
+}
+
+.service-item h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.service-item p {
+    color: #bbb;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    z-index: 2;
+    position: relative;
+}
+
+.service-item::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(243, 38, 140, 0.1) 0%, transparent 70%);
+    transform: rotate(25deg);
+    z-index: 1;
+    transition: opacity 0.4s;
+    opacity: 0;
+}
+
+.service-item:hover::before {
+    opacity: 1;
+}
+
+.services {
+    background: linear-gradient(to bottom right, rgba(10, 10, 10, 0.9), rgba(30, 30, 30, 0.9)),
+        url('../img/Card-Backgrounds/List-Group/sung-jinwoo-3840x2160-21523.jpg');
+    /* Update the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    /* Optional: extra spacing */
+    color: #fff;
+    /* Optional: to ensure text is readable */
+}
+
+.hero {
+    background: linear-gradient(to bottom right, rgba(10, 10, 10, 0.9), rgba(30, 30, 30, 0.9)),
+        url('../img/Card-Backgrounds/List-Group/kazutora-hanemiya-3840x2160-21416.png');
+    /* Update the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    /* Optional: extra spacing */
+    color: #fff;
+    /* Optional: to ensure text is readable */
+}
+
+.testimonials {
+    background: linear-gradient(to bottom right, rgba(10, 10, 10, 0.9), rgba(30, 30, 30, 0.9)),
+        url('../img/Card-Backgrounds/List-Group/kazutora-hanemiya-3840x2160-21416.png');
+    /* Update the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    /* Optional: extra spacing */
+    color: #fff;
+    /* Optional: to ensure text is readable */
+}
+
+#hero {
+    min-height: 100vh;
+    /* Ensures the hero section occupies at least the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Vertically centers the content */
+    padding-bottom: 0;
+    /* Remove bottom padding if any */
+    position: relative;
+}
+
+
+/* bootstrap list groups */
+.experience-list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-item {
+    /* background-color: #f8f9fa; */
+    /* Light background */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    border-left: 5px solid white;
+    /* For the vibrant accent */
+    border-left-color: #140101;
+    /* Default accent color */
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+
+}
+
+.experience-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #f7f7f7;
+}
+
+.experience-company {
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.experience-duration {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.experience-description {
+    color: #495057;
+    line-height: 1.6;
+}
+
+/* Vibrant Accent Colors (you can choose your own!) */
+.experience-item:nth-child(1) {
+    border-left-color: #ececeb;
+    /* Yellow */
+}
+
+.experience-item:nth-child(2) {
+    border-left-color: #ffffff;
+    /* Green */
+}
+
+.experience-item:nth-child(3) {
+    border-left-color: #ececec;
+    /* Red */
+}
+
+.experience-item:nth-child(4) {
+    border-left-color: #ffffff;
+    /* Cyan */
+}
+
+/* List groups for experience */
+.experience-item {
+    background-color: #f8f9fa;
+    /* Light background (if no image) */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    border-left: 5px solid;
+    border-left-color: #ececec;
+    color: white;
+    /* Set default text color to white for all content within */
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+.experience-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    /* color: #343a40; Remove this, as the parent will handle it */
+}
+
+.experience-company {
+    /* color: #6c757d; Remove this */
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.experience-duration {
+    /* color: #6c757d; Remove this */
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.experience-description {
+    /* color: #495057; Remove this */
+    line-height: 1.6;
+}
+
+/* Vibrant Accent Colors */
+.experience-item:nth-child(1) {
+    border-left-color: #fdfdfd;
+    /* Yellow */
+}
+
+.experience-item:nth-child(2) {
+    border-left-color: #feffff;
+    /* Green */
+}
+
+.experience-item:nth-child(3) {
+    border-left-color: #fff8f9;
+    /* Red */
+}
+
+.experience-item:nth-child(4) {
+    border-left-color: #ffffff;
+    /* Cyan */
+}
+
+.experience-item h5 {
+    color: rgb(248, 128, 29);
+    font-size: 1.5rem;
+}
+
+.experience-item p {
+    color: white;
+    font-size: 1rem;
+}
+
+.experience-item {
+    /* ... other existing styles ... */
+    transition: box-shadow 0.2s ease;
+    /* For the glow effect */
+}
+
+.experience-item:hover {
+    box-shadow: 0 0 10px 5px white;
+    /* The glow effect */
+}
+
+.experience-item:hover h5.experience-title {
+    font-size: 2em;
+    /* Slightly larger font size for the h5 on hover */
+}
+
+.experience-item:hover p.experience-title {
+    font-size: 20em;
+    /* Slightly larger font size for the h5 on hover */
+}
+
+p.experience-title {
+    transition: font-size 0.3s ease;
+    /* Smooth transition for the font size */
+}
+
+h5.experience-title {
+    transition: font-size 0.2s ease;
+    /* Smooth transition for the font size */
+}
+
+
+/* NEW */
+
+#contact {
+    background-image: url('../img/Card-Backgrounds/List-Group/sung-jinwoo-3840x2160-21523.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card1 {
+    background-image: url('../img/Card-Backgrounds/List-Group/sung-jinwoo-3840x2160-21523.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url('../img/Card-Backgrounds/List-Group/Pc\ man.jpeg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background-image: url('../img/Card-Backgrounds/chou-ml-s-t-u-n-chou-frirvm9l9zmgn7hu.jpg');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    background-image: url('../img/Card-Backgrounds/List-Group/kazutora-hanemiya-3840x2160-21416.png');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card5 {
+    background-image: url('../img/Card-Backgrounds/cool-fortnite-skin-dire-with-katana-sk590djux1dx2dcp.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card6 {
+    background-image: url('../img/Card-Backgrounds/wildcat-fortnite-nytexl0lkc363zud.jpg ');
+    /* Unique image */
+    background-size: cover;
+    background-position: center;
+}
