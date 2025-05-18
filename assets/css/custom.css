@@ -21,10 +21,20 @@ body {
 /* custom cards */
 
 .card-1 {
-    background-image: url('../img/Card-Backgrounds/archer-with-a-bow-clash-of-clans-5lnl2yy85gm5n6gd.jpg ');
+    background-image: url('../img/Card-Backgrounds/archer-with-a-bow-clash-of-clans-5lnl2yy85gm5n6gd.jpg');
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .card-2 {
@@ -32,6 +42,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
 }
 
 .card-3 {
@@ -39,6 +60,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .card-4 {
@@ -46,6 +78,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
 }
 
 .card-5 {
@@ -53,6 +96,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .card-6 {
@@ -60,6 +114,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
 }
 
 .card-6 {
@@ -67,6 +132,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
 }
 
 .card-7 {
@@ -74,6 +150,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .card-8 {
@@ -81,6 +168,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .card-9 {
@@ -88,6 +186,17 @@ body {
     /* Unique image */
     background-size: cover;
     background-position: center;
+
+    
+    margin: 0;
+    padding: -1;
+    border: none;
+    background-size: cover;
+    background-position: center;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .service-item::after {
