@@ -1,0 +1,15 @@
+for repo in repo-name-1 repo-name-2 repo-name-3 repo-name-4 repo-name-5; do
+  gh repo clone YOUR_USERNAME/$repo
+done
+
+
+
+projects to clone from github
+
+1- shadow shift
+2- awakened realm
+3- lava lifter
+4- shadow climber
+5- shadow shift
+6- echoes of the last technique
+7- Dashing duckies

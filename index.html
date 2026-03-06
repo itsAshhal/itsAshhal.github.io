@@ -2,601 +2,573 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Software Engineer</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/PS5-Controller-PNG-Image.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ash.Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Space+Mono:wght@400;700&display=swap"
     rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/custom.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Selecao
-  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Software Engineer</h1>
-      </a>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">ASH<em>.</em>DEV</div>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+  </nav>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <!-- <li><a href="#about">About</a></li> -->
-          <li><a href="#services">Services</a></li>
-          <li><a href="#testimonials">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-marquee-bg" aria-hidden="true">
+      GAMEPLAY&nbsp;&nbsp;ENGINEER&nbsp;&nbsp;GAMEPLAY&nbsp;&nbsp;ENGINEER&nbsp;&nbsp;GAMEPLAY&nbsp;&nbsp;ENGINEER&nbsp;&nbsp;GAMEPLAY&nbsp;&nbsp;ENGINEER&nbsp;&nbsp;
     </div>
-  </header>
+    <div class="hero-inner">
+      <div class="hero-tag fade-up">Full-Time &amp; Freelance Gameplay Engineer</div>
+      <h1 class="hero-name fade-up">
+        <span class="solid">Ashhal</span><br>
+        <span class="outline">Bin Idrees</span>
+      </h1>
+      <div class="hero-bottom fade-up">
+        <p class="hero-desc">
+          Designing the heartbeat of gameplay —<br>
+          where <strong>code meets control</strong>, and every mechanic tells a story.<br>
+          I build that magic.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <main class="main">
+  <!-- TICKER -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <span class="ticker-text">Unity</span>
+      <span class="ticker-text">Unreal Engine</span>
+      <span class="ticker-text">Photon PUN 2</span>
+      <span class="ticker-text">Mirror</span>
+      <span class="ticker-text">Netcode</span>
+      <span class="ticker-text">PlayFab</span>
+      <span class="ticker-text">Firebase</span>
+      <span class="ticker-text">Supabase</span>
+      <!-- <span class="ticker-text">EOS</span> -->
+      <span class="ticker-text">Multiplayer</span>
+      <span class="ticker-text">Blender</span>
+      <span class="ticker-text">Game Design</span>
+      <span class="ticker-text">Unity</span>
+      <!-- <span class="ticker-text">Unreal Engine</span> -->
+      <span class="ticker-text">Photon PUN 2</span>
+      <span class="ticker-text">Mirror</span>
+      <span class="ticker-text">Netcode</span>
+      <span class="ticker-text">PlayFab</span>
+      <span class="ticker-text">Firebase</span>
+      <span class="ticker-text">Supabase</span>
+      <span class="ticker-text">EOS</span>
+      <span class="ticker-text">Multiplayer</span>
+      <span class="ticker-text">Blender</span>
+      <span class="ticker-text">Game Design</span>
+    </div>
+  </div>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="services-header">
+      <div>
+        <div class="section-label fade-up">01 — Services</div>
+        <h2 class="section-title fade-up">What I Build</h2>
+      </div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <div class="service-num">01</div>
+        <span class="service-icon">🎯</span>
+        <div class="service-title">Multiplayer Shooter</div>
+        <p class="service-desc">Fast-paced action games with real-time syncing, responsive shooting mechanics, and
+          optimized netcode for smooth online play.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">02</div>
+        <span class="service-icon">🏃</span>
+        <div class="service-title">Platformers</div>
+        <p class="service-desc">Precision-based gameplay with smooth character movement, physics-driven interactions,
+          and level-specific mechanics.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">03</div>
+        <span class="service-icon">⚔️</span>
+        <div class="service-title">RPG / MMORPG</div>
+        <p class="service-desc">Deep progression systems featuring skill trees, quests, inventory management, and
+          multiplayer character syncing.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">04</div>
+        <span class="service-icon">🎉</span>
+        <div class="service-title">Party Games</div>
+        <p class="service-desc">Fun, fast, and chaotic multiplayer experiences with mini-games, emotes, and easy
+          drop-in/drop-out networking.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">05</div>
+        <span class="service-icon">📱</span>
+        <div class="service-title">Casual Mobile</div>
+        <p class="service-desc">Lightweight and addictive gameplay designed for quick sessions, monetization-friendly,
+          and fully responsive UI.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">06</div>
+        <span class="service-icon">🏎️</span>
+        <div class="service-title">Sports &amp; Racing</div>
+        <p class="service-desc">Competitive and physics-driven gameplay with leaderboard systems, time trials, and tight
+          control systems.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">07</div>
+        <span class="service-icon">👻</span>
+        <div class="service-title">Horror / Survival</div>
+        <p class="service-desc">Tension-filled experiences with stealth mechanics, inventory systems, AI threats, and
+          multiplayer co-op sync.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">08</div>
+        <span class="service-icon">📚</span>
+        <div class="service-title">Educational Games</div>
+        <p class="service-desc">Gamified learning tools with clean interfaces, interactive storytelling, and rewarding
+          progression systems.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-num">09</div>
+        <span class="service-icon">🗺️</span>
+        <div class="service-title">Top-Down Strategy</div>
+        <p class="service-desc">Tactical gameplay featuring unit control, real-time decisions, fog of war, and synced
+          multiplayer strategy.</p>
+      </div>
+    </div>
+  </section>
 
-      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-header">
+      <div>
+        <div class="section-label fade-up">02 — Work</div>
+        <h2 class="section-title fade-up">Projects</h2>
+        <h3>Some of my work</h3>
+      </div>
+    </div>
+    <div class="projects-grid">
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown" style="font-size: 4rem;">Ashhal Bin Idrees</h2>
-            <p class="animate__animated animate__fadeInUp" style="font-size: 1.5rem;">Designing the heartbeat of
-              gameplay—where code meets control,
-              and every mechanic tells a story. I build that magic.</p>
-            <!-- <a href="https://www.linkedin.com/in/ashhal-idrees-0904b824a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaXDDMkKDS%2FKbdz%2FGQ4h0ZQ%3D%3D" -->
-            <!-- target="_blank" class="btn-get-started animate__animated animate__fadeInUp scrollto">Linkedin</a> -->
+      <!-- card 1 -->
+      <div class="project-card fade-up">
+        <div class="video-placeholder" id="thumb-1"
+          style="background-image: linear-gradient(rgba(0, 0, 0, 0.925), rgba(0,0,0,0.5)), url('Images/CrossTouch.png'); background-size: cover; background-position: center; cursor: pointer; display: flex; align-items: center; justify-content: center;"
+          onclick="playVideo('thumb-1', 'DO_tHJp3bCI')">
+          <div class="play-btn" style="
+      background: #ff0000;
+      border: none;
+      border-radius: 12px;
+      width: 68px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: white;
+      box-shadow: 0 4px 15px rgba(255,0,0,0.4);
+      transition: background 0.2s, transform 0.2s;
+    " onmouseover="this.style.background='#cc0000'" onmouseout="this.style.background='#ff0000'">▶</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-info">
+            <div class="project-type">Input Solution for all gaming platforms</div>
+            <div class="project-title">Cross Touch</div>
+            <p class="project-desc">Plug n Play input solution with event based system, just bind events and the system
+              is ready to work with mouse and keyboard/controllers/touchpads and other gaming devices, allowing custom
+              configuration as well.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Unity</span>
+              <span class="tag">C#</span>
+              <span class="tag">Unity New Input System</span>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="project-card fade-up">
+        <div class="video-placeholder" id="thumb-2"
+          style="background-image: linear-gradient(rgba(0, 0, 0, 0.925), rgba(0,0,0,0.5)), url('Images/EchoesOfTheLostTechnique.png'); background-size: cover; background-position: center; cursor: pointer; display: flex; align-items: center; justify-content: center;"
+          onclick="playVideo('thumb-2', 'LP3FZ3xkBSw')">
+          <div class="play-btn" style="
+      background: #ff0000;
+      border: none;
+      border-radius: 12px;
+      width: 68px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: white;
+      box-shadow: 0 4px 15px rgba(255,0,0,0.4);
+      transition: background 0.2s, transform 0.2s;
+    " onmouseover="this.style.background='#cc0000'" onmouseout="this.style.background='#ff0000'">▶</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-info">
+            <div class="project-type">Final Year Project</div>
+            <div class="project-title">Echoes Of The Lost Technique</div>
+            <p class="project-desc">My final year project for BS Software Engineering.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Unity</span>
+              <span class="tag">C#</span>
+              <span class="tag">Unity New Input System</span>
+              <span class="tag">Blender</span>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+      </div>
+
+
+      <!-- card 3 -->
+      <div class="project-card fade-up">
+        <div class="video-placeholder" id="thumb-3"
+          style="background-image: linear-gradient(rgba(0, 0, 0, 0.925), rgba(0,0,0,0.5)), url('Images/AwalenedRealm.png'); background-size: cover; background-position: center; cursor: pointer; display: flex; align-items: center; justify-content: center;"
+          onclick="playVideo('thumb-3', 'JGkXMhzcARc')">
+          <div class="play-btn" style="
+      background: #ff0000;
+      border: none;
+      border-radius: 12px;
+      width: 68px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: white;
+      box-shadow: 0 4px 15px rgba(255,0,0,0.4);
+      transition: background 0.2s, transform 0.2s;
+    " onmouseover="this.style.background='#cc0000'" onmouseout="this.style.background='#ff0000'">▶</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-info">
+            <div class="project-type">Single + Multiplayer Game</div>
+            <div class="project-title">Awakened Realm</div>
+            <p class="project-desc">International client's project for developing a soothing idle RPG anime mange battle
+              game (not completed yet).
+            </p>
+            <div class="project-tags">
+              <span class="tag">Unity</span>
+              <span class="tag">C#</span>
+              <span class="tag">Unity New Input System</span>
+              <span class="tag">Playfab</span>
+              <span class="tag">Untiy NetCode For GameObjects</span>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+      </div>
+
+       <!-- card 4 -->
+      <div class="project-card fade-up">
+        <div class="video-placeholder" id="thumb-4"
+          style="background-image: linear-gradient(rgba(0, 0, 0, 0.925), rgba(0,0,0,0.5)), url('Images/MultiplayerPrototype.png'); background-size: cover; background-position: center; cursor: pointer; display: flex; align-items: center; justify-content: center;"
+          onclick="playVideo('thumb-4', 'AFyuPlMxLF8')">
+          <div class="play-btn" style="
+      background: #ff0000;
+      border: none;
+      border-radius: 12px;
+      width: 68px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: white;
+      box-shadow: 0 4px 15px rgba(255,0,0,0.4);
+      transition: background 0.2s, transform 0.2s;
+    " onmouseover="this.style.background='#cc0000'" onmouseout="this.style.background='#ff0000'">▶</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-info">
+            <div class="project-type">Single + Multiplayer Game</div>
+            <div class="project-title">Awakened Realm</div>
+            <p class="project-desc">International client's project for developing a soothing idle RPG anime mange battle
+              game (not completed yet).
+            </p>
+            <div class="project-tags">
+              <span class="tag">Unity</span>
+              <span class="tag">C#</span>
+              <span class="tag">Unity New Input System</span>
+              <span class="tag">Playfab</span>
+              <span class="tag">Untiy NetCode For GameObjects</span>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+      </div>
+
+
+
+
+
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="exp-header">
+      <div class="section-label fade-up">03 — Experience</div>
+      <h2 class="section-title fade-up">Skills &amp; Stack</h2>
+    </div>
+    <div class="exp-list">
+      <div class="exp-item fade-up">
+        <div class="exp-num">01</div>
+        <div class="exp-title">Unity Gameplay Engineer</div>
+        <p class="exp-desc">Engaging and interactive gameplay experiences in Unity. Optimized game performance,
+          integrated animations, and ensured smooth mechanics for mobile and desktop platforms.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">02</div>
+        <div class="exp-title">Photon PUN 2</div>
+        <p class="exp-desc">Real-time multiplayer features using Photon PUN 2. Networking, matchmaking, and
+          synchronization of player states across devices with reduced latency.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">03</div>
+        <div class="exp-title">Unity Fusion</div>
+        <p class="exp-desc">Advanced multiplayer integration with Photon Fusion — state synchronization, host migration,
+          and lag-tolerant netcode for competitive gameplay.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">04</div>
+        <div class="exp-title">Netcode for GameObjects</div>
+        <p class="exp-desc">Efficient network solutions for game synchronization, object authority, and lag
+          compensation. Player movement sync, object interaction, and match stability.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">05</div>
+        <div class="exp-title">Auth + Backend Services</div>
+        <p class="exp-desc">Firebase and PlayFab authentication. Secure player sign-ins, matchmaking, and scalable data
+          handling for live sessions.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">06</div>
+        <div class="exp-title">Unity Mirror</div>
+        <p class="exp-desc">Multiplayer games using Mirror framework. Custom lobbies, game scene management, and
+          gameplay data across all clients with authority control.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">07</div>
+        <div class="exp-title">Dedicated Server — PlayFab</div>
+        <p class="exp-desc">Server-authoritative framework for Mirror and Netcode hosted on PlayFab Multiplayer with
+          public IP and port-based connections.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">08</div>
+        <div class="exp-title">Cinematics &amp; Custom Tools</div>
+        <p class="exp-desc">Cinematics and cutscenes using Unity Timeline. Custom tooling for production pipelines and
+          animation workflows.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">09</div>
+        <div class="exp-title">New Input System</div>
+        <p class="exp-desc">Custom input solutions for different platforms with complex control schemes and input
+          mappings for various gameplay mechanics.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">10</div>
+        <div class="exp-title">PlayFab · Firebase · Supabase</div>
+        <p class="exp-desc">Player data storage, achievements, and matchmaking. Cloud-saving, game statistics, and
+          social logins with Supabase table editors.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">11</div>
+        <div class="exp-title">Game Analytics</div>
+        <p class="exp-desc">Analytics systems using Firebase and Unity Cloud to track player behavior, in-game actions,
+          and session data for retention and monetization insights.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">12</div>
+        <div class="exp-title">3D &amp; 2D Asset Production</div>
+        <p class="exp-desc">3D models, textures, and animations in Blender. UI/UX design in Adobe Illustrator. Full
+          pipeline from concept to real-time rendering in-engine.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">13</div>
+        <div class="exp-title">Local Co-op Multiplayer</div>
+        <p class="exp-desc">Local coop controls for split-screen and shared-screen experiences, allowing players to
+          enjoy games together at a single station.</p>
+      </div>
+      <div class="exp-item fade-up">
+        <div class="exp-num">14</div>
+        <div class="exp-title">Git &amp; Version Control</div>
+        <p class="exp-desc">Git and GitHub Desktop for version control in solo and team-based projects. 50+ gaming
+          repos, branch management, and clean commit history.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCORD -->
+  <div class="discord-section">
+    <div class="discord-inner fade-up">
+      <div class="discord-text">
+        <h3>Join the Community</h3>
+        <p>// Connect with players &amp; devs on my Discord server</p>
+      </div>
+      <a href="https://discord.gg/QRM7VPvGX8" class="btn-discord" target="_blank">Join Discord →</a>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-header">
+      <div class="section-label fade-up">04 — Contact</div>
+      <h2 class="section-title fade-up">Let's Connect</h2>
+    </div>
+    <div class="contact-grid">
+      <a href="https://discord.com/users/1048229697353420810" class="contact-link fade-up" target="_blank">
+        <div class="contact-link-left">
+          <span class="contact-icon"><i class="fa-brands fa-discord"></i></span>
+          <div>
+            <div class="contact-name">Discord</div>
+            <div class="contact-handle">Direct Message</div>
           </div>
         </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown" style="font-size: 4rem;">Career / Profession</h2>
-            <p class="animate__animated animate__fadeInUp" style="font-size: 1.5rem;">Currently working as a Full time
-              and a Freelance Gameplay Engineer.
-            </p>
-            <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://www.linkedin.com/in/ashhal-idrees-0904b824a/" class="contact-link fade-up" target="_blank">
+        <div class="contact-link-left">
+          <span class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+          <div>
+            <div class="contact-name">LinkedIn</div>
+            <div class="contact-handle">ashhal-idrees</div>
           </div>
         </div>
-
-
-
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown" style="font-size: 4rem;">Discord Server</h2>
-            <p class="animate__animated animate__fadeInUp" style="font-size: 1.5rem;">Join my discord server to tag
-              along
-              with other players...
-            </p>
-            <a href="https://discord.gg/QRM7VPvGX8" class="btn-get-started animate__animated animate__fadeInUp scrollto"
-              target="_blank">Join</a>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100080508682881" class="contact-link fade-up" target="_blank">
+        <div class="contact-link-left">
+          <span class="contact-icon"><i class="fa-brands fa-facebook-f"></i></span>
+          <div>
+            <div class="contact-name">Facebook</div>
+            <div class="contact-handle">Profile</div>
           </div>
         </div>
-
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
-
-      <!-- <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
-        </g>
-      </svg> -->
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 style="color: white; font-size: 1.25rem;">Services</h2>
-        <p style="color: white; font-size: 2rem;">What I've done and can do for you....</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative card-1">
-              <div class="icon">
-                <i class="bi bi-controller" style="color: #0dcaf0;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Multiplayer Shooter</h3>
-              </a>
-              <p>Fast-paced action games with real-time syncing, responsive shooting mechanics, and optimized netcode
-                for smooth online play.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative card-2">
-              <div class="icon">
-                <i class="bi bi-joystick" style="color: #fd7e14;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Platformers</h3>
-              </a>
-              <p>Precision-based gameplay with smooth character movement, physics-driven interactions, and
-                level-specific mechanics.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative card-3">
-              <div class="icon">
-                <i class="bi bi-crosshair" style="color: #20c997;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>RPG / MMORPG
-              </h3>
-              </a>
-              <p>Deep progression systems featuring skill trees, quests, inventory management, and multiplayer character
-                syncing.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative card-4">
-              <div class="icon">
-                <i class="bi bi-bullseye" style="color: #df1529;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Party Games</h3>
-              </a>
-              <p>Fun, fast, and chaotic multiplayer experiences with mini-games, emotes, and easy drop-in/drop-out
-                networking.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative card-5">
-              <div class="icon">
-                <i class="bi bi-box-seam" style="color: #6610f2;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Casual Mobile Games</h3>
-              </a>
-              <p>Lightweight and addictive gameplay designed for quick sessions, monetization-friendly, and fully
-                responsive UI.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative card-6">
-              <div class="icon">
-                <i class="bi bi-compass" style="color: #f3268c;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Sports & Racing Games</h3>
-              </a>
-              <p>Competitive and physics-driven gameplay with leaderboard systems, time trials, and tight control
-                systems.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative card-7">
-              <div class="icon">
-                <i class="bi bi-map" style="color: #f3268c;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Horror / Survival</h3>
-              </a>
-              <p>Tension-filled experiences with stealth mechanics, inventory systems, AI threats, and multiplayer co-op
-                sync.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative card-8">
-              <div class="icon">
-                <i class="bi bi-cpu" style="color: #f3268c;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Educational Games</h3>
-              </a>
-              <p>Gamified learning tools with clean interfaces, interactive storytelling, and rewarding progression
-                systems.
-              </p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative card-9">
-              <div class="icon">
-                <i class="bi-rocket-takeoff" style="color: #f3268c;"></i>
-              </div>
-              <!-- <a href="service-details.html" class="stretched-link"> -->
-              <h3>Top-Down / Isometric Strategy</h3>
-              </a>
-              <p>Tactical gameplay featuring unit control, real-time decisions, fog of war, and synced multiplayer
-                strategy.
-              </p>
-            </div>
-          </div><!-- End Service Item -->
-
-
-
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://wa.me/923040607473" class="contact-link fade-up" target="_blank">
+        <div class="contact-link-left">
+          <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span>
+          <div>
+            <div class="contact-name">WhatsApp</div>
+            <div class="contact-handle">+92 304 0607473</div>
+          </div>
         </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 style="color: white; font-size: 1.25rem;">Experience</h2>
-        <p style="color: white; font-size: 2rem;">The experience I've got so far....</p>
-      </div><!-- End Section Title -->
-      <div class="container mt-5">
-        <!-- <h2>Experience</h2> -->
-        <ul class="experience-list-group">
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/Pc man.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-            <h5 class="experience-title">Unity Gameplay Engineer</h5>
-            <p class="experience-description">
-              Worked on the development of engaging and interactive gameplay experiences in Unity. Focused on optimizing
-              game performance, integrating animations, and ensuring smooth mechanics for user interaction. Collaborated
-              closely with designers and developers to create immersive gameplay features for both mobile and desktop
-              platforms.
-            </p>
-          </li>
-
-          <!-- <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/download.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Unreal Engine Gameplay Engineer</h5>
-            <p class="experience-description">Assisted in the development of real-time 3D environments and mechanics
-              using Unreal Engine. Worked on both single-player and multiplayer game mechanics, focusing on player
-              interaction, world-building, and seamless multiplayer features. Gained valuable experience in Blueprints
-              and C++ within Unreal Engine.</p>
-          </li> -->
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/download\ \(2\).jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Unity Photon PUN 2</h5>
-            <p class="experience-description">Integrated real-time multiplayer features into Unity games using Photon
-              PUN 2. Worked on networking, matchmaking, and synchronization of player states across different devices.
-              Implemented multiplayer systems that supported smooth player experiences and reduced latency in game
-              sessions.</p>
-          </li>
-
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/Illustration\ of\ anime\ character\ in\ the\ rain\ _\ AI-generated\ image.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Unity Fusion</h5>
-            <p class="experience-description">Integrated real-time multiplayer features into Unity games using Photon
-              Fusion. Focused on networking, matchmaking, and synchronization of player states across devices. Developed
-              multiplayer systems that ensured seamless gameplay experiences, enhancing synchronization and minimizing
-              latency across sessions.</p>
-          </li>
-
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/download\ \(1\).jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Unity Netcode</h5>
-            <p class="experience-description">Developed and optimized multiplayer systems using Unity's Netcode for
-              GameObjects. Focused on creating efficient network solutions for game synchronization, object authority,
-              and lag compensation. Worked on integrating features like player movement synchronization, object
-              interaction, and match stability.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/more/Illustration\ of\ anime\ character\ in\ the\ rain\ _\ AI-generated\ image.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Unity Netcode Services + Authentication</h5>
-            <p class="experience-description">Built and integrated authentication and multiplayer systems for Unity
-              games, ensuring smooth and secure player sign-ins and data handling. Used Firebase and PlayFab for user
-              management, player authentication, and matchmaking services. Focused on scalability and user experience
-              for multiplayer sessions.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/more/Illustration\ of\ anime\ character\ in\ the\ rain\ _\ AI-generated\ image.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Unity Mirror</h5>
-            <p class="experience-description">Developed multiplayer games using Mirror framework for Unity. From
-              managing customg lobbies to joining game scene and managing gameplay data across
-              all the clients.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/more/Illustration\ of\ anime\ character\ in\ the\ rain\ _\ AI-generated\ image.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Dedicated Server Hosting On Playfab Multiplayer</h5>
-            <p class="experience-description">Using server authoritative framework for Mirror and Netcode hosted on
-              playfab multiplayer, allowing users to join game session
-              using public IP and Port connections.
-            </p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/monkey\ d\ luffy.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Unity Cinematics and Tools</h5>
-            <p class="experience-description">Created cinematics, cutscenes, and interactive in-game tools for
-              Unity-based projects. Used timeline and cinematic features to bring story-driven elements to life.
-              Developed custom tools and workflows for artists to enhance the production pipeline and optimize animation
-              work in Unity.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/NARUTO\ UZUMAKI.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Hands-on Experience with Unity New Input System</h5>
-            <p class="experience-description">Gained hands-on experience working with Unity's new input system to
-              implement player controls and interaction systems. Developed custom input solutions for different
-              platforms, ensuring a smooth user experience across devices. Worked on complex control schemes and input
-              mappings for various gameplay mechanics.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/sung-jinwoo-3840x2160-21523.jpg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Backend Services including PlayFab, Firebase and Supabase</h5>
-            <p class="experience-description">Integrated PlayFab and Firebase into Unity games for backend services like
-              player data storage, achievements, and matchmaking. Worked on cloud-saving features, player
-              authentication, and game statistics. Ensured backend systems were secure, efficient, and scalable for
-              large player bases. Hands on experience with supabase including social logins and table editors.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/kazutora-hanemiya-3840x2160-21416.png'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Game Analytics using Firebase and Unity Cloud</h5>
-            <p class="experience-description">Developed game analytics systems using Firebase and Unity Cloud to track
-              player behavior, in-game actions, and session data. Implemented event tracking and real-time data
-              collection to provide insights into player retention, engagement, and monetization.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/download.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Git and GitHub Desktop</h5>
-            <p class="experience-description">Utilized Git and GitHub Desktop for version control in both solo and
-              team-based projects. Ensured smooth collaboration between developers by managing code branches, pull
-              requests, and maintaining a clean commit history. Worked with different Git workflows and resolving merge
-              conflicts efficiently.</p>
-          </li>
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/1.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Over 50+ Gaming Repos on GitHub</h5>
-            <p class="experience-description">Maintained and contributed to over 50 gaming-related repositories on
-              GitHub, ranging from game prototypes to complete game engines and multiplayer frameworks. Focused on
-              creating reusable assets and libraries for Unity and Unreal Engine projects, allowing other developers to
-              implement features quickly.</p>
-          </li>
-
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img//Card-Backgrounds/clash-of-clans-pink-haired-archer-defd0y9ukbspqa01.jpg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Strong Foundation in Blender</h5>
-            <p class="experience-description">Developed 3D models, textures, and animations using Blender for use in
-              Unity and Unreal Engine games. Gained a deep understanding of the 3D production pipeline, focusing on
-              optimizing assets for real-time rendering. Used Blender for character rigging, environment modeling, and
-              animation creation.</p>
-          </li>
-
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/awesome-graphic-for-animal-jam-wi8b6sofc9wb18jk.jpg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Adobe Illustrator for 2D and UI</h5>
-            <p class="experience-description">Used Adobe Illustrator for creating detailed 2D assets, user interfaces,
-              and icons for various game projects. Focused on creating clean, scalable designs and developing intuitive
-              UI/UX for mobile and desktop games. Worked closely with game designers to implement designs within Unity
-              and Unreal Engine.</p>
-          </li>
-          <!-- <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/More/monkey\ d\ luffy.jpeg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Real-time Experience with C# and C++</h5>
-            <p class="experience-description">Developed real-time systems and game features using both C# and C++.
-              Worked on optimizing performance and ensuring efficient execution in Unity and Unreal Engine. Gained
-              experience with multi-threading, memory management, and real-time data processing for complex gameplay
-              scenarios.</p>
-          </li> -->
-
-          <li class="experience-item"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/img/Card-Backgrounds/List-Group/sung-jinwoo-3840x2160-21523.jpg'); background-size: cover; background-position: center; color: white; border-radius: 12px; padding: 16px;">
-
-            <h5 class="experience-title">Experience with Local Coop Multiplayer</h5>
-            <p class="experience-description">Developed local coop multiplayer controls for allowing players enjoy the
-              game sitting at a single place....</p>
-          </li>
-        </ul>
-
-      </div>
-
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    </section><!-- /Testimonials Section -->
-
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section" style="padding-bottom: 20rem; padding-top: 10rem;">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 style="color: white; font-size: 1.25rem;">Contact</h2>
-        <p style="color: white; font-size: 2rem;">Let's have a little chat togethher....</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item card1 position-relative card-1">
-              <div class="icon">
-                <i class="bi bi-discord" style="color: #ffffff;"></i>
-              </div>
-              <a href="https://discord.com/users/1048229697353420810" target="_blank" class="stretched-link">
-                <!-- 1048229697353420810 -->
-                <!-- https://discord.gg/QRM7VPvGX8 -->
-                <h3>Discord</h3>
-              </a>
-              <!-- <p>Fast-paced action games with real-time syncing, responsive shooting mechanics, and optimized netcode
-                for smooth online play.</p> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item card2 position-relative card-1">
-              <div class="icon">
-                <i class="bi bi-facebook" style="color: #1dadca;"></i>
-              </div>
-              <a href="https://www.facebook.com/profile.php?id=100080508682881" target="_blank" class="stretched-link">
-                <h3>Facebook</h3>
-              </a>
-              <!-- <p>Fast-paced action games with real-time syncing, responsive shooting mechanics, and optimized netcode
-                for smooth online play.</p> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item card3 position-relative card-2">
-              <div class="icon">
-                <i class="bi bi-linkedin" style="color: #ffffff;"></i>
-              </div>
-              <a href="https://www.linkedin.com/in/ashhal-idrees-0904b824a/" target="_blank" class="stretched-link">
-                <h3>Linkedin</h3>
-              </a>
-              <!-- <p>Precision-based gameplay with smooth character movement, physics-driven interactions, and
-                level-specific mechanics.</p> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item card4 position-relative card-3">
-              <div class="icon">
-                <i class="bi bi-whatsapp" style="color: #20c997;"></i>
-              </div>
-              <a href="https://wa.me/03040607473" target="_blank" class="stretched-link">
-                <h3>Whatsapp
-                </h3>
-              </a>
-              <!-- <p>Deep progression systems featuring skill trees, quests, inventory management, and multiplayer character
-                syncing.</p> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item card5 position-relative card-4">
-              <div class="icon">
-                <i class="bi bi-instagram" style="color: #df1529;"></i>
-              </div>
-              <a href="https://www.instagram.com/ashhal.se/" target="_blank" class="stretched-link">
-                <h3>Instagram</h3>
-              </a>
-              <!-- <p>Fun, fast, and chaotic multiplayer experiences with mini-games, emotes, and easy drop-in/drop-out
-                networking.</p> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item card6 position-relative card-5">
-              <div class="icon">
-                <i class="bi bi-threads" style="color: #6610f2;"></i>
-              </div>
-              <a href="https://www.threads.com/@ashhal.se" target="_blank" class="stretched-link">
-                <h3>Threads</h3>
-              </a>
-              <!-- <p>Lightweight and addictive gameplay designed for quick sessions, monetization-friendly, and fully
-                responsive UI.</p> -->
-            </div>
-          </div><!-- End Service Item -->
-
-
-
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://www.instagram.com/ashhal.se/" class="contact-link fade-up" target="_blank">
+        <div class="contact-link-left">
+          <span class="contact-icon"><i class="fa-brands fa-instagram"></i></span>
+          <div>
+            <div class="contact-name">Instagram</div>
+            <div class="contact-handle">@ashhal.se</div>
+          </div>
         </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://www.threads.com/@ashhal.se" class="contact-link fade-up" target="_blank">
+        <div class="contact-link-left">
+          <span class="contact-icon"><i class="fa-brands fa-threads"></i></span>
+          <div>
+            <div class="contact-name">Threads</div>
+            <div class="contact-handle">@ashhal.se</div>
+          </div>
+        </div>
+        <span class="contact-arrow">↗</span>
+      </a>
+    </div>
+  </section>
 
-      </div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">ASH<em>.</em>DEV</div>
+    <div class="footer-copy">© 2025 Ashhal Bin Idrees — Gameplay Engineer</div>
+    <div class="footer-links">
+      <a href="#hero">Top</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
 
+  <script>
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursor-ring');
+    let mx = 0, my = 0, rx = 0, ry = 0;
 
-    </section><!-- /Contact Section -->
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      cursor.style.left = mx + 'px';
+      cursor.style.top = my + 'px';
+    });
 
-  </main>
+    (function animateRing() {
+      rx += (mx - rx) * 0.10;
+      ry += (my - ry) * 0.10;
+      ring.style.left = rx + 'px';
+      ring.style.top = ry + 'px';
+      requestAnimationFrame(animateRing);
+    })();
 
+    document.querySelectorAll('a, button, .service-card, .project-card, .exp-item, .contact-link').forEach(el => {
+      el.addEventListener('mouseenter', () => { cursor.classList.add('hover'); ring.classList.add('hover'); });
+      el.addEventListener('mouseleave', () => { cursor.classList.remove('hover'); ring.classList.remove('hover'); });
+    });
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.08 });
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    document.querySelectorAll('.fade-up').forEach((el, i) => {
+      const siblings = [...el.parentElement.children].filter(c => c.classList.contains('fade-up'));
+      el.style.transitionDelay = (siblings.indexOf(el) * 70) + 'ms';
+      observer.observe(el);
+    });
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <script src="./assets/custom.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    function playVideo(containerId, videoId) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = `
+    <iframe
+      src="https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0&fs=1"
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+      allowfullscreen>
+    </iframe>
+  `;
+    }
+  </script>
 </body>
 
 </html>
